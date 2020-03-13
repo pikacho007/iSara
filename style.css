@@ -1,0 +1,81 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Hiragino Kaku Gothiv Pro", "Meiryo,Osaka", sans-serif;
+
+  -moz-width: 100%;
+  -moz-height: 100%;
+
+  -ms-width: 100%;
+  -ms-height: 100%;
+
+  -webkit-width: 100%;
+  -webkit-height: 100%;
+}
+
+/* スマホサイズ */
+@media screen and (max-width: 480px) {
+
+  .header {
+    height: 60px;
+    border: 2px black;
+  }
+
+  .header_title {
+    font-size: 10px;
+    color: #333;
+    margin-top: 7px;
+  }
+
+  .header img {
+    width: 90px;
+    height: 30px;
+    margin-top: 7px;
+  }
+
+  .contact {
+    background-color: #DA6B63;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 12px;
+    margin-left: 180px;
+    }
+
+  .contact img {
+    width: 21px;
+    height: 25px;
+    margin-left: 20px;
+  }
+
+  .contact p {
+    margin: 5px;
+  }
+
+  .header_flex {
+    display: flex;
+  }
+
+}/* スマホサイズ終わり */
+
+/* タブレットサイズ */
+@media screen and (max-width: 896px) {
+
+
+
+}/* タブレットサイズ終わり */
+
+/* PCサイズ */
+@media screen and (max-width: 1024px) {
+
+
+  
+}/* PCサイズ終わり */
+
+/* 大きいPCサイズ */
+@media screen and (min-width: 1025px) {
+
+
+  
+}/* 大きいPCサイズ終わり */
+
