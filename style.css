@@ -56,6 +56,67 @@ body {
     display: flex;
   }
 
+
+  .main_title img {
+    width: 100%;
+  }
+
+  .main_title {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+  }
+
+
+  .main_title .stable {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+  }
+ 
+  #yellow {
+    background-color: #EBB94D;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .yellow .white {
+    background-color: #da6b63;
+    border-radius: 10px;
+    
+  }
+
+  .only_red {
+    color: #c7244d;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+  }
+
+  #yellow p {
+    text-align: center;
+  }
+
+  #yellow .contact_yellow {
+    background-color: #DA6B63;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  
+
 }/* スマホサイズ終わり */
 
 /* タブレットサイズ */
